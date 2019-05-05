@@ -61,7 +61,7 @@
       <el-col :span="6">
         <div class="m-life-downapp">
           <img src="//s1.meituan.net/bs/fe-web-meituan/60ac9a0/img/download-qr.png" alt>
-          <p>美团APP手机版11</p>
+          <p>美团APP手机版</p>
           <p class="last-p">
             <span>1元起</span>吃喝玩乐
           </p>
