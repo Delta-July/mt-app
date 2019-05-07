@@ -10,6 +10,19 @@ import '@/assets/css/main.css'
 
 Vue.use(ElementUI)
 
+Vue.directive('document-click', {
+  bind(el, binding, vnode) {
+    //console.log(binding.name)
+    document.addEventListener('click', binding.value, false)
+  },
+  inserted() {
+
+  },
+  updated() {
+
+  }
+})
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
