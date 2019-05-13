@@ -20,6 +20,7 @@
 import MyMenu from "@/components/index/menu";
 import MyLife from "@/components/index/life";
 import MyContainer from "@/components/index/container";
+
 export default {
   components: {
     MyMenu,
